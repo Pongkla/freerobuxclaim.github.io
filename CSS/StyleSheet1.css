@@ -1,0 +1,68 @@
+﻿body {
+    margin: 20px 30px 20px 30px;
+    background-image: url(https://wallpapercave.com/wp/wp8579502.jpg);
+    background-size: 1600px;
+}
+#Title {
+    color: azure;
+    font-family: 'Baskerville Old Face';
+    font-size: larger;
+    color: black;
+    outline-color: mediumblue;
+    outline-width: thick;
+    outline-style: double;
+    text-shadow: 0.5px 0.5px 0.5px mediumblue, 0 0 0.1em mediumblue, 0 0 0.1em mediumblue;
+    background-color: rgb(0,0,0,0.3);
+}
+#Q1 {
+    color: black;
+    font: bold 20px larger,larger;
+    font-family: Arial;
+    text-shadow: 0.5px 0.5px 0.5px mediumblue, 0 0 0.1em mediumblue, 0 0 0.1em mediumblue;
+}
+#Q2 {
+    color: black;
+    font: bold 20px larger,larger;
+    font-family: Arial;
+    text-shadow: 0.5px 0.5px 0.5px mediumblue, 0 0 0.1em mediumblue, 0 0 0.1em mediumblue;
+}
+#Q3 {
+    color: black;
+    font: bold 20px larger,larger;
+    font-family: Arial;
+    text-shadow: 0.5px 0.5px 0.5px mediumblue, 0 0 0.1em mediumblue, 0 0 0.1em mediumblue;
+}
+#Q4 {
+    color: black;
+    font: bold 20px larger,larger;
+    font-family: Arial;
+    text-shadow: 0.5px 0.5px 0.5px mediumblue, 0 0 0.1em mediumblue, 0 0 0.1em mediumblue;
+}
+#Body {
+    color: azure;
+    font-size: 16px;
+    font-stretch: wider;
+    font-family: Arial;
+}
+#Body2 {
+    color: azure;
+    font-size: 16px;
+    font-stretch: wider;
+    font-family: Arial;
+}
+#Body3 {
+    color: azure;
+    font-size: 16px;
+    font-stretch: wider;
+    font-family: Arial;
+}
+    .scroller {
+    text-align: left;
+    width: 250px;
+    height: 250px;
+    overflow-x: scroll;
+    display: flex;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    scroll-snap-type: x mandatory;
+}
